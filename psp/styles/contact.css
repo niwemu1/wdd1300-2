@@ -1,0 +1,127 @@
+header {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  background-color:rgba(79, 138, 110, 0.7);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+body {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 100%s;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: rgb(209, 184, 150);
+  align-items: center;
+  }
+  
+  
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+
+
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #076341;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(79, 138, 110, 0.7);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+ }
+
+
+
+
