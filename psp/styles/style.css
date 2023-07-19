@@ -1,27 +1,19 @@
 header {
-    width: 100%;
-    height: 75px;
-    background-color: rgb(8, 94, 51);
-    padding: 25px;
-    padding: 1em;
+  
+  background-color:rgba(79, 138, 110, 0.7);
+  padding: 1em;
+  text-align: center;
 }
 
-
-
-nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  color: rgb(223, 240, 248);
-  font-size: 30px;
-  padding:3em;
-    
-
+p {
+  text-indent: 30px;
+  text-align: justify;
+  font-size: 100px;
+  width: 35%;
+  
 }
 
-
-
-  p {
+p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
     padding: 1em;
@@ -47,18 +39,31 @@ h1, h2, h3, p {
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em;
   font-size: 18px;
   background-color: rgb(223, 240, 248);
   
 }
 
-p {
-    text-indent: 30px;
-    text-align: justify;
-    font-size: 100px;
-    width: 35%;
-    
+
+  nav  {
+    list-style-type: none;
+    display: flex;
+  
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
   }
   
 
@@ -82,7 +87,7 @@ img {
 
 footer a {
     text-decoration: none;
-    color: rgb(223, 240, 248);
+    color: rgb(10, 10, 10);
     font-size: 30px;
     padding:1em;
     min-width: 120px;
@@ -93,7 +98,7 @@ footer a {
 footer  {
   width: 100%;
   height: 75px;
-  background-color: rgb(8, 94, 51);
+  background-color: rgba(79, 138, 110, 0.7);
   padding: 25px;
   padding: 1em;
 

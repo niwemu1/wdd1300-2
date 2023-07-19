@@ -1,16 +1,23 @@
 header {
-  width: 80%;
-  height: 100px;
-  margin: auto;
+    
   background-color:rgba(79, 138, 110, 0.7);
+  padding: 1em;
+  grid-template-columns: 200px auto;
+  display: grid;
+  margin: 0 auto;
+}
+#logo_link {
+padding-top: 5px;
+justify-self: center;
+align-self: center;
 }
 
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
+.logo {
+height: 55px;
+padding-top: 5px;
+
 }
+
 nav  {
   list-style-type: none;
   display: flex;
@@ -31,27 +38,35 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 body {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2em;
+  font-size: 18px;
   text-align: center;
 }
 
 form {
   margin: 0 auto;
-  width: 100%s;
+  width: 70%s;
   /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
   background: rgb(209, 184, 150);
   align-items: center;
+  
+
   }
-  
-  
   
   input,
   textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em sans-serif;
+     font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em; font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    padding: 0em;
   
     /* Uniform text field size */
     width: 300px;
@@ -120,6 +135,8 @@ form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 30px;
+    margin: 70px;
+    
  }
 
 
