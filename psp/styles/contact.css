@@ -42,7 +42,6 @@ body {
   margin: 0 auto;
   padding: 2em;
   font-size: 18px;
-  text-align: center;
 }
 
 form {
@@ -104,8 +103,7 @@ form {
 
 
   
-  body {font-family: Arial, Helvetica, sans-serif;}
-  * {box-sizing: border-box;}
+  
   
   input[type=text], select, textarea {
     width: 100%;
@@ -136,9 +134,35 @@ form {
     background-color: #f2f2f2;
     padding: 30px;
     margin: 70px;
-    
+    text-align: center;
  }
+ .fb {
+  float: right;
+  padding: 1px 10px;
+  width: 3%;
+  
+  
+}
+.social {
+  padding-top: 1px;
+  
+}
 
+footer a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
 
+footer  {
+width: 98%;
+height: 75px;
+background-color: #6e9675;
+padding: 25px;
+padding: 1em;
 
-
+}  
